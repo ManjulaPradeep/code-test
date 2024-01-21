@@ -7,6 +7,7 @@
                 <div class="card-body">
                     <form action="{{route('customer.update')}}" method="put" class="form p-2">
                         @csrf
+                        @method('PUT')
     
                         <div class="form-group mt-3">
                             <label for="" class="form-label">Customer ID</label>
